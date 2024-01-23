@@ -1,0 +1,9 @@
+.button {
+    background-color: aqua;
+    padding: 1rem;
+    margin: 1.2rem;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 5px;;
+}

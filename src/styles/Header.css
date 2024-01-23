@@ -1,0 +1,13 @@
+header {
+    background-color: rgb(156, 220, 220);
+    width: 100vw;
+    height: 5vh;
+}
+
+.link {
+    text-decoration: none;
+    margin: 2rem;
+    font-size: 2rem;
+    color: black;
+    font-weight: 600;
+}
