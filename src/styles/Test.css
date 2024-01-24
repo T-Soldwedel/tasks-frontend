@@ -1,0 +1,13 @@
+ .mid-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 70vh;
+
+} 
+
+.content {
+    width: 70%;
+    padding: 3rem;
+}

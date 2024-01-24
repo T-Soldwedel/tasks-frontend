@@ -1,16 +1,17 @@
 import React from 'react'
-import {Link} from "react-router-dom"
 import "../styles/Header.css"
 
 const Header = () => {
   return (
     <header>
+      <h1>Welcome Stranger</h1>
 
-        <Link to="/" className="link">FDM</Link>
-        <Link to="/profile" className="link">Profile</Link>
-        <Link to="/login" className="link">Login</Link>
+      <div className="header-icons"> 
 
-        <a href='https://www.google.com' className="link">Google</a>
+              <h2>Profile Symbol</h2>
+      <h2>Logout Symbol</h2>
+      </div>
+
 
     </header>
   )

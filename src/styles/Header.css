@@ -1,13 +1,16 @@
 header {
-    background-color: rgb(156, 220, 220);
-    width: 100vw;
-    height: 5vh;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../assets/header/Mountains.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
 }
 
-.link {
-    text-decoration: none;
+.header-icons {
+    display: flex;
     margin: 2rem;
-    font-size: 2rem;
-    color: black;
-    font-weight: 600;
 }

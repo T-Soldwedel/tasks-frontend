@@ -1,0 +1,18 @@
+.sidebar-right {
+    background-color: yellow;
+    width: 20%;
+    padding: 3rem;
+
+
+}
+
+.img-placeholder {
+
+    padding: 3rem;
+    background-image: url("../assets/Calendar.jpg");
+height: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: contain;
+}
