@@ -1,7 +1,9 @@
 .sidebar-right {
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 20%;
     padding: 3rem;
+    border-left: 1px solid black;
+    margin: 2rem 0;
 
 
 }

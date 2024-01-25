@@ -6,11 +6,22 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 15px;
+    padding: 2rem;
+    
     
 
 }
 
-.header-icons {
-    display: flex;
-    margin: 2rem;
+header img {
+    height: 5rem;
 }
+
+
+.header-icons {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+
+

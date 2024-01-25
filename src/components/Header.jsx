@@ -1,20 +1,28 @@
-import React from 'react'
-import "../styles/Header.css"
+import React from "react";
+import "../styles/Header.css";
+import logo from "../assets/logo.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faUser, faRightFromBracket } from '@fortawesome/free-solid-svg-icons'
+
+
 
 const Header = () => {
   return (
     <header>
-      <h1>Welcome Stranger</h1>
 
-      <div className="header-icons"> 
+      <img src={logo} alt="Company Logo" />
 
-              <h2>Profile Symbol</h2>
-      <h2>Logout Symbol</h2>
+
+
+      <div className="header-icons">
+
+        <FontAwesomeIcon icon={faUser} className="header-icons"/>
+        <FontAwesomeIcon icon={faRightFromBracket} className="header-icons"/>
+        
+
       </div>
-
-
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
