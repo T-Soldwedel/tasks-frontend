@@ -12,6 +12,14 @@ nav {
     color: black;
     margin: 1rem;
     font-size: 1.1rem;
+    padding: 0.5rem 1rem;
 
+}
+
+.link:hover {
+    background-color: antiquewhite;
+    width: fit-content;
+    border-radius: 10px;
+    /* outline: 1px solid; */
 }
 

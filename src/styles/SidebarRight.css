@@ -1,20 +1,34 @@
 .sidebar-right {
-    /* background-color: yellow; */
-    width: 20%;
-    padding: 3rem;
-    border-left: 1px solid black;
-    margin: 2rem 0;
-
-
+  /* background-color: yellow; */
+  width: 20%;
+  padding: 3rem;
+  border-left: 1px solid black;
+  margin: 2rem 0;
 }
 
 .img-placeholder {
+  padding: 3rem;
+  background-image: url("../assets/Calendar.jpg");
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 
-    padding: 3rem;
-    background-image: url("../assets/Calendar.jpg");
-height: 15rem;
-    background-repeat: no-repeat;
-    background-position: center;
 
-    background-size: contain;
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }

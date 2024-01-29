@@ -4,12 +4,12 @@ import Header from './components/Header';
 import HomePage from './pages/HomePage';
 import {Routes, Route} from "react-router-dom";
 import ProfilePage from './pages/ProfilePage';
-
-// import "./App.css"
-import "./styles/Test.css"
 import Navbar from './components/Navbar';
 import SidebarRight from './components/SidebarRight';
 import DailyThoughts from './pages/DailyThoughts';
+import "./styles/Test.css"
+import StudyRoom from './pages/StudyRoom';
+import Feed from './pages/Feed';
 
 function App() {
   return (
@@ -21,10 +21,12 @@ function App() {
       <Navbar />
 
       <div className="content">
-              <Routes>
+      <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/feed" element={<Feed />}/>
         <Route path="/profile" element={<ProfilePage />}/>
         <Route path="/dailythoughts" element={<DailyThoughts />}/>
+        <Route path="/studyroom" element={<StudyRoom />}/>
       </Routes>
       </div>
 

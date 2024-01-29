@@ -15,6 +15,7 @@ const Footer = () => {
         <div className="footer-logo">
           <img src={logo} alt="Company Logo" />
           <span>Creation GmbH</span>
+          
         </div>
         <div className="footer-links">
           <ul>
@@ -32,15 +33,14 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+        
         <div className="footer-social">
           <FontAwesomeIcon icon={faInstagram} className="social-icon" />
           <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
           <FontAwesomeIcon icon={faGithub} className="social-icon" />
         </div>
       </div>
-      <div className="footer-bottom">
-        <p>&copy; 2024 Creation Test GmbH. All Rights Reserved.</p>
-      </div>
+
     </footer>
   );
 };
