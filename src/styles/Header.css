@@ -21,7 +21,7 @@ header img {
 .header-icons {
     margin: 1rem;
     font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
 }
-
-
 
